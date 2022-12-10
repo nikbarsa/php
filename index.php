@@ -1,17 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
 <?php 
-$name = readline("введите имя")
-$age = readline("сколько вам лет")
+$name = readline("введите имя");
+$age = readline("сколько вам лет");
 $results = "вас зовут $name и вам $age"
 echo $results
 ?>
-</body>
-</html>
+<?php
+$task = "Какая задача стоит перед вами сегодня"
+$results = readline();
+$time = "Сколько примерно времени эта задача займет?"
+$results1 = readline();
+$plans = "какая у вас задача на завтра"
+$results2 = readline();
+$results3 = "$name, сегодня у вас запланировано 3 приоритетных задачи на день:"\n
+$results ($results1);
+?>

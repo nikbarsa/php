@@ -1,16 +1,17 @@
-<?php 
-$name = readline("введите имя");
-$age = readline("сколько вам лет");
-$results = "вас зовут $name и вам $age"
-echo $results
-?>
 <?php
-$task = "Какая задача стоит перед вами сегодня"
-$results = readline();
-$time = "Сколько примерно времени эта задача займет?"
-$results1 = readline();
-$plans = "какая у вас задача на завтра"
-$results2 = readline();
-$results3 = "$name, сегодня у вас запланировано 3 приоритетных задачи на день:"\n
-$results ($results1);
-?>
+$wishes = ['здоровья' ,'удачи', 'счастья',];
+$epit = ['наилучшего','постоянного', 'неверотяного'];
+$name = readline('введите ваше имя');
+$rand = array_rand($wishes);
+$rands = array_rand($epit);
+echo "дорогой $name поздравляю тебя с днем рождения желаю $epit[$rands] $wishes[$rand]";
+
+<?php
+$arr1 = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+$arr2 = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+$multi = [];
+foreach ($arr1 as $key => $value) {
+    $multi[] = $value * $arr2[$key];
+}
+
+print_r($multi);
